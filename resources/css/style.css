@@ -1,0 +1,179 @@
+*{
+    background-color: black;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+    margin: 0px;
+}
+
+.header{
+    height: 69px;
+    width: 100%;
+    display: block;
+    background-color: black;
+    position: static;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+}
+
+.headerimg{
+    
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px; 
+}
+
+.nav{
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+.nav a{
+    height: 100%;
+    display: table;
+    float:left;
+    padding: 0px 20px;
+}
+
+.nav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+.mission-container{
+    background-image: url('/resources/images/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.text-over{
+    margin:auto;
+    background-color: black;
+    width: 100%;
+    
+    line-height: 50px;
+}
+
+.text-over h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.trend-container{
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trend img{
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.f h1{
+    padding: 20px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.f h2{
+    line-height: 50px;
+}
+
+.banner{
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url('/resources/images/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-top{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin: 0px;
+    padding-top: 69px;
+    background-color: transparent !important;
+    margin-bottom: 30px;
+    font-weight: bold;
+    
+
+}
+
+.text-top h2 {
+    margin: 0px;
+    padding-top: auto;
+    font-size: 50px;
+    background-color: transparent;
+    color: white;
+  }
+
+.box-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: transparent;
+    flex-wrap: wrap;
+    opacity: 1; 
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    opacity: 1;
+}
+
+.box h3{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contact{
+    height: 200px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.contact h1,
+        h5{
+            line-height: 50px;
+        }
+
+
+.copyright p {
+    text-align: left !important;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+ 
